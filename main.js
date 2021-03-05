@@ -1,5 +1,5 @@
 function vibrateSimple() {
-  navigator.vibrate(200);
+  navigator.vibrate(500);
 }
 
 function vibratePattern() {
