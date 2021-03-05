@@ -27,7 +27,7 @@ img {
 .button {
   background-color: mistyrose;
   width: 50%;
-  height: 20px;
+  height: auto;
   margin-top: 20px;
   font-size: 20px;
 }
