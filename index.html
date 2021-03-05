@@ -17,6 +17,21 @@
       </button>
       Your device memory is ~<b id="result">unknown</b> GiB.
     </div>
+    <div class="container">
+      <p>Current permission status is <b id="status">unavailable</b>.</p>
+
+      <p><button onclick="requestPermission()">Request permission</button></p>
+      <p>
+        <button onclick="nonPersistentNotification()">
+          Non-persistent notification
+        </button>
+      </p>
+      <p>
+        <button onclick="persistentNotification()">
+          Persistent notification
+        </button>
+      </p>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
